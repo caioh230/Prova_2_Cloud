@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(fontes/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(fontes/Poppins-Medium.ttf);
+}
+
+body {
+  font-family: "Poppins-Bold";
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.navbar-custom {
+  background-color:black;
+}
+
+.navbar-custom .navbar-brand {
+  color: #FFFFFF;
+  font-family: "Poppins-Bold";
+  font-size: 40px;
+}
+
+.navbar-custom .navbar-brand:hover {
+  color: #FFFFFF;
+  font-family: "Poppins-Bold";
+  font-size: 40px;  
+}
+
+.navbar-custom .btn {
+  background-color:whitesmoke;
+  color:black;
+}
+
+.navbar-custom .btn:hover {
+  background-color: #fff;
+} 
+
+.city-description {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.city-description h2 {
+  margin-top: 0;
+  margin-bottom: 1.5%;
+  font-family: "Poppins-Bold";
+}
+
+.city-description p{
+  font-family: "Poppins-Medium";
+  text-align: justify;
+  line-height: 1.5;
+}
+
+#carouselExample .carousel-inner {
+  max-height: 600px;
+}
+
+#carouselExample .carousel-inner .carousel-item {
+  justify-content: center;
+  align-items: center;
+}
+
+#carouselExample .carousel-inner .carousel-item img.carousel-img {
+  width: auto;
+  height: 500px; 
+  object-fit: cover; 
+}
+
+.tourist-spots {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tourist-spots h2 {
+  margin-top: 0;
+  font-family: "Poppins-Bold";
+}
+
+.tourist-spots ul {
+  padding-left: 20px;
+}
+
+form.email-form {
+  font-family: "Poppins-Bold";
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto; 
+  max-width: 600px; 
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+form input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  width: calc(100% - 22px);
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+form.email-form.sending button {
+  background-color: #666;
+  pointer-events: none; 
+}
+
+
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+footer h2 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.other-cities {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.other-cities img {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.other-cities p{
+  font-family: "Poppins-Medium";
+  margin: 5px 0;
+  font-size: 16px;
+  text-align: center;
+  color: whitesmoke;
+}
